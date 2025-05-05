@@ -1,0 +1,163 @@
+:root {
+    --main-color: #272B30;
+    --navbar-color: #3a497b;
+    --navbar-color-hover: #0099cc;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+.landing .bg-image {
+    background-image: url("../assets/wraper.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    background-color: var(--main-color);
+}
+
+.navbar-container {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    transition: all 0.5s ease;
+}
+
+.navbar-container.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(0);
+    animation: smoothSlideDown 0.3s forwards;
+}
+
+
+
+@keyframes smoothSlideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0.8;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+nav {
+    background-color: var(--navbar-color) !important;
+    padding: 10px 0;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.416) 1px 2px 7px 4px, rgb(51, 51, 51) 1px 2px 2px 1px;
+}
+
+.navbar-brand {
+    font-family: "Nerko One", cursive;
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.nav-link {
+    font-family: "Comfortaa", cursive;
+    font-size: 0.766rem;
+    line-height: 1.148rem;
+    font-weight: 400;
+    padding: 8px;
+}
+
+.nav-item .active,
+.nav-link:hover {
+    color: var(--navbar-color-hover) !important;
+}
+
+.parent {
+    border: 2px solid #222628;
+}
+
+.cont3 {
+    border-top: 2px solid #222628;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.lastDiv {
+    background-color: #32383E;
+    padding: 3.675px 6.825px;
+    border-radius: 6px;
+    font-family: "Comfortaa", cursive;
+    font-size: 10.5px;
+    line-height: 10.5px;
+    font-weight: 700;
+}
+
+.span33 {
+    padding: 3.675px 6.825px;
+}
+
+/* .nerko {
+    font-family: "Nerko One", cursive;
+    font-size: 28px;
+    line-height: 33.3px;
+    font-weight: 500;
+} */
+.des {
+    font-family: "Comfortaa", cursive;
+}
+
+.short-disc {
+    color: #ffffff;
+    font-family: "Comfortaa", cursive;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.img {
+    filter: grayscale(0.5);
+    -webkit-filter: grayscale(0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.col-md-3:hover .img {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.col-md-3:hover {
+    transform: scale(1.07);
+    transition: all 0.3s ease-in-out;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    z-index: 100000;
+    transition: opacity 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay img {
+    width: 400px;
+    height: auto;
+}
+
+@media screen and (max-width:480px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+
+    }
+}
