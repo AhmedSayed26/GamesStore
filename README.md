@@ -40,7 +40,7 @@ An interactive and modern web app that lets you explore a variety of free-to-pla
 ✅ RapidAPI – Free-to-Play Games Database
 
 # 🖼️ Screenshots
-- ![Game Store Screenshot](ui.png)
+ ![Game Store Screenshot](ui.png)
 
   
 
