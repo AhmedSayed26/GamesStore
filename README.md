@@ -31,7 +31,7 @@ An interactive and modern web app that lets you explore a variety of free-to-pla
 
 🛠️ Built With
 
-✅ Vanilla JavaScript (ES6+)
+✅ JavaScript (ES6+)
 
 ✅ HTML5 & CSS3
 
