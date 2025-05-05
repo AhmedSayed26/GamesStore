@@ -7,7 +7,7 @@ An interactive and modern web app that lets you explore a variety of free-to-pla
  - 🔹 Filter games by categories such as MMORPG, Shooter, Strategy, and more
  - 🔹 Active category is visually highlighted
 
-##🖼️ Game Grid Display
+## 🖼️ Game Grid Display
  - 🟩 Each game is shown in a responsive card with:
  - ✅ Game title
  - ✅ Thumbnail image
