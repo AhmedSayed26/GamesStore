@@ -42,7 +42,9 @@ An interactive and modern web app that lets you explore a variety of free-to-pla
 # 🖼️ Screenshots
  ![Game Store Screenshot](ui.png)
 
+
+
   
 
-##🚀 Getting Started With demo 
+## 🚀 Getting Started With demo 
 https://ahmedsayed26.github.io/GamesStore/
