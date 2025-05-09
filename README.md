@@ -4,7 +4,9 @@ An interactive and modern web app that lets you explore a variety of free-to-pla
 
 ## 🔥 Key Features
   🧭 Category-Based Browsing
+  
   🔹 Filter games by categories such as MMORPG, Shooter, Strategy, and more
+  
   🔹 Active category is visually highlighted
 
 ## 🖼️ Game Grid Display
