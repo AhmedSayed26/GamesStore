@@ -3,9 +3,9 @@
 An interactive and modern web app that lets you explore a variety of free-to-play games by category, view detailed game info, and enjoy a sleek, responsive UI — powered by the Free-to-Play Games Database API.
 
 ## 🔥 Key Features
- - 🧭 Category-Based Browsing
- - 🔹 Filter games by categories such as MMORPG, Shooter, Strategy, and more
- - 🔹 Active category is visually highlighted
+  🧭 Category-Based Browsing
+  🔹 Filter games by categories such as MMORPG, Shooter, Strategy, and more
+  🔹 Active category is visually highlighted
 
 ## 🖼️ Game Grid Display
  - 🟩 Each game is shown in a responsive card with:
